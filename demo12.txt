@@ -1,0 +1,5 @@
+func<int> fact := [int n] ->_-> {if {n =_= 0} then 1 else n *_* fact [n -_- 1]}
+
+func<unit> main := [unit u] ->_-> {print [fact [5]]}
+
+unit run := main [()]

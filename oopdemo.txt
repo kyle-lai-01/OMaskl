@@ -1,0 +1,20 @@
+class intpair := {
+  [int x, int y] 
+
+  func<int> fst := [intpair i] ->_-> {i.x} 
+  func<int> snd := [intpair i] ->_-> {i.y} 
+  func<intpair> inc_fst := 
+  [intpair i] ->_-> {intpair p := constr [int e := i.x in e +_+ 1, i.y] in p} 
+  func<intpair> inc_snd := 
+  [intpair i] ->_-> {intpair p := constr [i.x, int e := i.y in e +_+ 1] in p}
+}
+
+func<unit> oop := [unit u] ->_-> {
+  intpair i := constr [2, 3] in 
+  intpair i2 := intpair.inc_fst [i] in
+  print [i2.x]
+}
+
+func<unit> f := [unit u] ->_-> {oop [()]}
+
+unit u := f [()]

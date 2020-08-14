@@ -1,0 +1,1 @@
+func<string> concat := [string s1, string s2] ->_-> {s1 $_$ s2} in concat ["Hello", "world"]

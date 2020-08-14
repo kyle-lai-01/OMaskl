@@ -1,0 +1,4 @@
+int number := 9 in
+boolean test := number <_< 10 in
+boolean test2 := number >_> 6 in
+test |_| test2

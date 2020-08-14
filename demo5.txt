@@ -1,0 +1,2 @@
+int number := 9 in
+number +_+ 8

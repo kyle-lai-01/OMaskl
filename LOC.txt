@@ -1,0 +1,5 @@
+Checking thelines of code  after the program is run (specifically the translate
+command) may result in extra lines of code because of the new OCaml 
+file created. Please check the lines of code before running any commands or
+delete the .ml files created by the translator if this is done after 
+running the program.

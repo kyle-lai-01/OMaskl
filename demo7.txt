@@ -1,0 +1,2 @@
+boolean and := 5 <_< (6 +_+ 9 *_* 6) in
+if {and} then "Hello" else "world"

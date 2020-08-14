@@ -1,0 +1,8 @@
+func<boolean> test := [int x, int y] ->_-> {x >_> y} in
+int z := 6 in
+func<int> add := [int x, int y] ->_-> {x +_+ y} in
+if {test [z, 2]} 
+then (floor (add [z, 8])) else 
+if {test [2, 1] |_| test [4, 5] |_| [int f] ->_-> {f >_> 2} [5]} 
+then ((8 -_- 2) ^_^ (z /_/ 1))
+else (min (7 *_* 9) (sqrt [int x] ->_-> {x} [8]))

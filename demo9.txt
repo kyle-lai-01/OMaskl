@@ -1,0 +1,1 @@
+func<int> add := [int x, int y, int z] ->_-> {x +_+ y +_+ z} in add [0, 5, 3]

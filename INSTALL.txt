@@ -1,0 +1,30 @@
+Open the fil e called test.txt: here you will write the code in OMaskl.
+To see the syntax of OMaskl, open Language ideas.pdf
+Write the code in test.txt using the syntax 
+outlined in the pdf and save test.txt
+
+Open terminal.
+Go to directory where project is saved using cd commands.
+Type the "make run" command to start the program.
+When the program prompts you for a command, choose one of the following 4
+commands: 
+1. translate - When the program prompts you for a file name, enter "test.txt"
+and the program will tell you the name of the .ml file produced containing 
+the OCaml translation. 
+2. translate interp - When the program prompts you for a file name, enter
+any .txt file you have created containing OMaskl code. The program will 
+print the OCaml translation and prompt you for another file name. 
+Enter "quit" to leave the translate interpreter. 
+3. evaluate - When the program prompts you for a file name, enter any 
+.txt file you have created containing OMaskl code. The program will evaluate
+the code you have entered. It will tell you if the code was run successfully. 
+You will only see something printed if you call the print or print_endl 
+functions. 
+4. evaluate interp - This starts the OMaskl interpreter. Enter any expression
+and it will evaluate that expression and produce the result. 
+You must end the expression with ";_;" (without the quotes). There cannot
+be any characters after ";_;" or the program will not recognize 
+it. You can use any number of lines to enter an expression as long as you
+add ";_;" to the end. To quit type "#quit;_;" (without the quotes).
+5. commands - Prints out a list of all commands 
+6. quit - terminates the program. 
