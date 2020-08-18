@@ -78,10 +78,10 @@ evaluate interp
 ```
 This starts the OMaskl interpreter. Enter any expression
 and it will evaluate that expression and produce the result. 
-You must end the expression with ";_;" (without the quotes). There cannot
-be any characters after ";_;" or the program will not recognize 
+You must end the expression with ";\_;" (without the quotes). There cannot
+be any characters after ";\_;" or the program will not recognize 
 it. You can use any number of lines to enter an expression as long as you
-add ";_;" to the end. To quit type "#quit;_;" (without the quotes).
+add ";\_;" to the end. To quit type "#quit;\_;" (without the quotes).
 
 5. 
 ```sh
